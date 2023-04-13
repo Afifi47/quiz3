@@ -5,12 +5,14 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "Username":"Ipi",
-    "Password":"767343"
+    "Username":"Tadak",
+    "Password":"197000"
 }
 
 ###
 GET http://localhost:3000/bye
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IlRhZGFrIiwiUGFzc3dvcmQiOiIxOTcwMDAiLCJOYW1lIjoiSGFyaXRoIiwiRW1haWwiOiJ0YWRha2lrdW5AZ21haWwuY29tIiwiaWF0IjoxNjgxMzcyMzM2LCJleHAiOjE2ODEzNzIzOTZ9.vMuSB0yx7tM-tCQAqyCnKst15jU81NUno0gDgvAid4w
+
 
 ###
 GET http://localhost:3000/
